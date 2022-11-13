@@ -1,0 +1,159 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-13T00:32:21.397Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10336015000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.startTest()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "verify user can successfully search a product and add the product to shopping cart to purchase the product",
+        "description": "",
+        "id": "product-search-and-purchase;verify-user-can-successfully-search-a-product-and-add-the-product-to-shopping-cart-to-purchase-the-product",
+        "after": [
+          {
+            "result": {
+              "duration": 1802000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.endTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 115870000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am BestBuy Homepage",
+            "match": {
+              "location": "stepDef.EndtoEnd_stepDef.iAmBestBuyHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 388990000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter Maclaptop on searchbar",
+            "match": {
+              "location": "stepDef.EndtoEnd_stepDef.iEnterMaclaptopOnSearchbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 519616000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on search icon button",
+            "match": {
+              "location": "stepDef.EndtoEnd_stepDef.iClickOnSearchIconButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20227351000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on the first maclaptop link from the list",
+            "match": {
+              "location": "stepDef.EndtoEnd_stepDef.iClickOnTheFirstMaclaptopLinkFromTheList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 505773000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the add to cart button",
+            "match": {
+              "location": "stepDef.EndtoEnd_stepDef.iClickOnTheAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7143549000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on go to cart from the popup window",
+            "match": {
+              "location": "stepDef.EndtoEnd_stepDef.iClickOnGoToCartFromThePopupWindow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 375378000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the on close icon to cancel the popup window",
+            "match": {
+              "location": "stepDef.EndtoEnd_stepDef.iClickTheOnCloseIconToCancelThePopupWindow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 888537000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the Checkout Button",
+            "match": {
+              "location": "stepDef.EndtoEnd_stepDef.iClickOnTheCheckoutButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 207000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should click on continue as guest button",
+            "match": {
+              "location": "stepDef.EndtoEnd_stepDef.iShouldClickOnContinueAsGuestButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Product Search and Purchase",
+    "description": "",
+    "id": "product-search-and-purchase",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/EndtoEnd.feature",
+    "tags": []
+  }
+]
